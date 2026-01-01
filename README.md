@@ -104,6 +104,19 @@ python runner.py --id 1 --workers 6
 
 This will start the agent loop, placing the results in `results/run_<id>`.
 
+## Creating Custom Benchmarks
+
+Want to evaluate the agent on your own specific workflow or tasks? Check out our comprehensive guide:
+
+📖 **[Creating Custom Benchmarks Tutorial](docs/CREATING_CUSTOM_BENCHMARKS.md)**
+
+This tutorial covers:
+- Understanding the benchmark architecture
+- Creating simple benchmarks from scratch
+- Advanced benchmarks with complex setup
+- Testing and debugging your benchmarks
+- Best practices and examples
+
 ## Things to work on
 
 Here are some potential things to try and do with the agent framework:
