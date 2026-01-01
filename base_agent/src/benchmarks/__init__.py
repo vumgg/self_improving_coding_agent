@@ -27,8 +27,8 @@ from .aiq_project_benchmarks import (
     MessagingAppAIQBenchmark,
     DistKVStoreAIQBenchmark,
 )
+from .data_transform import DataTransformBenchmark
 
-# Important, append new benchmarks to the end of this
 benchmark_registry: OrderedDict[str, Type[BaseBenchmark]] = OrderedDict(
     [
         (GSM8KBenchmark.name, GSM8KBenchmark),
@@ -49,5 +49,7 @@ benchmark_registry: OrderedDict[str, Type[BaseBenchmark]] = OrderedDict(
         # (CSVParsingAIQBenchmark.name, CSVParsingAIQBenchmark),
         # (MessagingAppAIQBenchmark.name, MessagingAppAIQBenchmark),
         # (DistKVStoreAIQBenchmark.name, DistKVStoreAIQBenchmark),
+        # Example benchmark (uncomment to include in runs):
+        # (DataTransformBenchmark.name, DataTransformBenchmark),
     ]
 )
