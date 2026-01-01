@@ -106,9 +106,11 @@ This will start the agent loop, placing the results in `results/run_<id>`.
 
 ## Creating Custom Benchmarks
 
-Want to evaluate the agent on your own specific workflow or tasks? Check out our comprehensive guide:
+Want to evaluate the agent on your own specific workflow or tasks? Check out our guides:
 
-📖 **[Creating Custom Benchmarks Tutorial](docs/CREATING_CUSTOM_BENCHMARKS.md)**
+📖 **[Creating Custom Benchmarks Tutorial](docs/CREATING_CUSTOM_BENCHMARKS.md)** - Comprehensive guide with examples
+
+⚡ **[Quick Reference Guide](docs/BENCHMARK_QUICK_REFERENCE.md)** - Fast template and common patterns
 
 This tutorial covers:
 - Understanding the benchmark architecture
