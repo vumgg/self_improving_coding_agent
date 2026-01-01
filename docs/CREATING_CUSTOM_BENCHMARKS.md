@@ -125,7 +125,7 @@ class DataTransformBenchmark(BaseBenchmark):
         
         if problem.problem_id == "csv_to_json":
             # Create sample CSV file
-            csv_content = "name,age,city\\nAlice,30,NYC\\nBob,25,LA\\nCharlie,35,Chicago"
+            csv_content = "name,age,city\nAlice,30,NYC\nBob,25,LA\nCharlie,35,Chicago"
             (problem_data_dir / "input.csv").write_text(csv_content)
             
         elif problem.problem_id == "filter_data":
@@ -459,7 +459,7 @@ benchmark_registry: OrderedDict[str, Type[BaseBenchmark]] = OrderedDict(
 Run your benchmark tests:
 
 ```bash
-cd /home/runner/work/self_improving_coding_agent/self_improving_coding_agent
+# From the repository root directory
 python -m pytest base_agent/tests/benchmarks/test_data_transform.py -v
 ```
 
